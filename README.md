@@ -2,7 +2,8 @@
 
 Fork of [this](https://github.com/apacha/MusicScoreClassifier) repo by [Alexander Pacha](https://github.com/apacha).
 
-Changes:
+## Changes:
+
 - Wrapped into a package
 - Less chatty
 - Batch analysis
@@ -10,7 +11,7 @@ Changes:
 
 ## Usage:
 
-You'll need to `pip install`the package.
+You'll need to `pip install` the package.
 
 ### Classification:
 
