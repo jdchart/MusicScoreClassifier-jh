@@ -17,8 +17,7 @@ You'll need to `pip install` the package.
 
 ```python
 import sheetmusicclassifier as smc
-import utils
-import os
+from utils import writeJson
 
 inputFiles = [
     "a-score.jpeg",
@@ -30,7 +29,7 @@ model = "model/mobilenetv2.h5"
 
 processed = smc.process(model, inputFiles)
 
-utils.writeJson(processed, "data-output.json")
+writeJson(processed, "data-output.json")
 ```
 
 ### Output:
