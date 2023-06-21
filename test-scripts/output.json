@@ -1,0 +1,24 @@
+{
+    "images": [
+        {
+            "path": "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/test-scripts/input/a-score.jpeg",
+            "scores": [
+                0.0,
+                1.0
+            ],
+            "highest_prob": 1,
+            "class": "score",
+            "certainty": 1.0
+        },
+        {
+            "path": "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/test-scripts/input/not-a-score.jpeg",
+            "scores": [
+                0.9999,
+                0.0001
+            ],
+            "highest_prob": 0,
+            "class": "other",
+            "certainty": 0.9999
+        }
+    ]
+}
