@@ -10,6 +10,8 @@ from keras.utils import plot_model
 from scipy import ndimage
 from PIL import Image
 
+import imageio
+
 from skimage.transform import resize
 
 print("Parsing arguments ...")
@@ -30,7 +32,7 @@ print(" Model: ", model_path)
 print(" Image: ", image_path)
 
 print("Loading image ...")
-input_image = ndimage.imread(image_path, mode="RGB")
+input_image = imageio.imread(image_path, mode="RGB")
 print(" Shape: {0}".format(input_image.shape))
 
 print("Loading classifier...")

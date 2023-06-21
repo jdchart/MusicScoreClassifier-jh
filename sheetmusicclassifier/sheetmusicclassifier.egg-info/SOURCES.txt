@@ -1,0 +1,9 @@
+setup.py
+sheetmusicclassifier/__init__.py
+sheetmusicclassifier/main.py
+sheetmusicclassifier/runModel.py
+sheetmusicclassifier/utils.py
+sheetmusicclassifier.egg-info/PKG-INFO
+sheetmusicclassifier.egg-info/SOURCES.txt
+sheetmusicclassifier.egg-info/dependency_links.txt
+sheetmusicclassifier.egg-info/top_level.txt

@@ -52,6 +52,14 @@ You can download a trained model from [here](https://github.com/apacha/MusicScor
 
 To classify an image, you can use the `TestModel.py` script and call it like this: `python TextModel.py -c mobilenetv2.h5 -i image_to_classify.jpg`
 
+```
+"/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/venv/bin/python" "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/ModelGenerator-tensorflow/TestModel.py" -c "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/model/mobilenetv2.h5" -i "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/input/a-score.jpeg"
+```
+
+```
+"/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/venv/bin/python" "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/ModelGenerator-tensorflow/TestModel.py" -c "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/model/mobilenetv2.h5" -i "/Users/jacob/Documents/Git Repos/MusicScoreClassifier-jh/input/not-a-score.jpeg"
+```
+
 ## Exporting the Model for being used in Tensorflow
 
 Since the Android App only uses Tensorflow, the resulting Keras model (despite having a tensorflow model inside)
